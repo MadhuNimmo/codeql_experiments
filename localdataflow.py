@@ -1,6 +1,8 @@
 def source():
   x = "John Doe";
-  sink(x);
-def sink(y):
+  sink(inter(x));
+def inter(y):
   print(y)
+def sink(z):
+  print(z)
 source()
