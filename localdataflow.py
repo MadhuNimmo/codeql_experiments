@@ -1,8 +1,9 @@
 def source():
-  x = "John Doe";
-  sink(inter(x));
+  x1 = "John Doe"
+  x2 = inter(x1)
+  sink(x2)
 def inter(y):
-  print(y)
+  return y
 def sink(z):
   print(z)
 source()
